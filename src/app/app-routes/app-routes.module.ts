@@ -7,7 +7,7 @@ import { AbteilungsFormComponent } from '../abteilungs-form/abteilungs-form.comp
 import { MitarbeiterFormComponent } from '../mitarbeiter-form/mitarbeiter-form.component';
 
 const routes: Routes = [
-  { path: '', component: AbteilungsListComponent },
+  { path: '', component: MitarbeiterListComponent },
 
   { path: 'abteilungsubersicht', component: AbteilungsListComponent },
   { path: 'abteilungsform', component: AbteilungsFormComponent },
