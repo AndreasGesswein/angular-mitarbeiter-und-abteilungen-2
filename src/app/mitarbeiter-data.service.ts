@@ -7,7 +7,7 @@ export class MitarbeiterDataService {
 mitarbeiter: Mitarbeiter[] = [];
 
 constructor(private abteilungDataService: AbteilungDataService) {
-  this.mitarbeiter.push(new Mitarbeiter(1, "Andreas", "Gesswein", 3, 5300, abteilungDataService.getAbteilungById(1), "andreas.gesswein@example.com", "1234567890", new Date("1980-05-12"), "männlich"));
+  this.mitarbeiter.push(new Mitarbeiter(1, "Andreas", "Gesswein", 3, 5300, abteilungDataService.getAbteilungById(1), "andreasgesswein1@gmail.com", "017683041909", new Date("2002-02-25"), "männlich"));
   this.mitarbeiter.push(new Mitarbeiter(2, "Max", "Mustermann", 1, 4000, abteilungDataService.getAbteilungById(3), "max.mustermann@example.com", "0987654321", new Date("1995-01-23"), "männlich"));
   this.mitarbeiter.push(new Mitarbeiter(3, "Olaf", "Schmidt", 2, 3300, abteilungDataService.getAbteilungById(2), "olaf.schmidt@example.com", "4567890123", new Date("1987-11-05"), "männlich"));
   this.mitarbeiter.push(new Mitarbeiter(4, "Lisa", "Ernst", 2, 3900, abteilungDataService.getAbteilungById(4), "lisa.ernst@example.com", "7890123456", new Date("1992-09-19"), "weiblich"));
